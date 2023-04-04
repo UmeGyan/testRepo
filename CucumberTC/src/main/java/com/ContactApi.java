@@ -51,7 +51,7 @@ public class ContactApi {
 		    }  
 		  }
 	} catch (NumberFormatException | JSONException e) {
-		// TODO Auto-generated catch block
+		
 		e.printStackTrace();
 	}
     }
