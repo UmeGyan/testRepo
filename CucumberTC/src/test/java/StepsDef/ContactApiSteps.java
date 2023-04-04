@@ -28,8 +28,8 @@ public class ContactApiSteps {
     	
     }
 
-    @Then("the response status code should be {int} for each contact created")
-    public void the_response_status_code_should_be_for_each_contact_created(Integer int1) throws IOException{
+    @Then("the response status code should be {int} for each POST request")
+    public void the_response_status_code_should_be_for_each_post_request(Integer int1) throws IOException{
     	ContactApi conapi = new ContactApi();
     	conapi.CsvReader();
     }
